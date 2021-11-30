@@ -293,7 +293,7 @@ ul [class^="nav"] a:hover:after, ul [class^="nav"] a:focus:after {
 /*setting PERFORMANCES page banner img*/
 .img-container-performances::before{
   content: '';
-  background: url("/img/FSPerformances.jpeg") 
+  background: url("/img/FSperformances.jpeg") 
                 no-repeat center center/cover;
   }
 section{
@@ -403,7 +403,7 @@ iframe{
 
 /*Styling the HTML Form*/
 #form-section{
-  background: url("/img/rentalinquiry.JPG")no-repeat center center/cover;
+  background: url("/img/rentalinquiry.jpg")no-repeat center center/cover;
   opacity: 0.7;
   /*#825365;*/
   padding: 80px 20px;
