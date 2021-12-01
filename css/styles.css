@@ -9,7 +9,9 @@ body{
 }
 /*font styling*/
 h1, h2{
-  font-family: "Trajan Pro 3 Semibold", "sans-serif";
+  font-family: "trajan-pro-3", "sans-serif";
+  font-style: normal;
+  font-weight: 600;
   font-size: 1.8rem;
   margin: 0 auto;
   text-align: center;
@@ -20,7 +22,9 @@ h2{
   margin-left: 80px;
 }
 p{
-  font-family: "Semplicita Pro", "serif";
+  font-family: semplicitapro, sans-serif;
+  font-style: normal;
+  font-weight: 400;
   width: 80%;
   margin: 20px auto;
   line-height: 2em;
@@ -62,12 +66,17 @@ img{
     /*display: block;*/
     text-decoration: none;
     list-style: none;
-    font-family: "Trajan Pro 3", "sans-serif";
+    font-family: "trajan-pro-3", "sans-serif";
+    font-style: normal;
+    font-weight: 400;
     color: white;
     transition: 0.3s ease;
 }
 #menu a:hover, a:focus{
-    font-family: "Trajan Pro 3 Semibold", "sans-serif";
+    font-family: "trajan-pro-3", "sans-serif";
+    font-style: normal;
+    font-weight: 600;
+    
 }
 /*adding underline effect on menu items upon hover*/
 [class^="nav"] a{
@@ -94,7 +103,9 @@ ul [class^="nav"] a:hover:after, ul [class^="nav"] a:focus:after {
   transform-origin: bottom left;
 }
 #menu .highlighted a{
-  font-family: "Trajan Pro 3 Semibold", "sans-serif"
+  font-family: "trajan-pro-3", "sans-serif";
+    font-style: normal;
+    font-weight: 600;
 }
 .highlighted a:after{
   content: '';
@@ -256,7 +267,9 @@ ul [class^="nav"] a:hover:after, ul [class^="nav"] a:focus:after {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Trajan Pro 3 Semibold", "sans-serif";
+  font-family: "trajan-pro-3", "sans-serif";
+  font-style: normal;
+  font-weight: 600;
   color: white;
   z-index: -1;
 }
@@ -329,7 +342,9 @@ margin-bottom: 20px;
 }
 [class^="gallery-container"] figcaption{
   text-align: center;
-  font-family: "Semplicita Pro", "serif";
+  font-family: semplicitapro, sans-serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 1.1rem;
   }
   @media screen and (min-width: 768px){
@@ -435,7 +450,9 @@ label{
   display: block;
   margin-bottom: 8px;
   color: black;
-  font-family: "Semplicita Pro", "serif";
+  font-family: semplicitapro, sans-serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 1.1rem;
 }
 label.checkbox{
@@ -486,14 +503,18 @@ fieldset{
 }
 input::placeholder, textarea::placeholder {
   color: hsla(0, 0%, 73%, 0.6);
-  font-family: "Semplicita Pro", "serif";
+  font-family: semplicitapro, sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 button {
   padding: 19px 39px 18px 39px;
   background-color:black;
   color: white;
-  font-family: "Trajan Pro 3", "san-serif";
+  font-family: "trajan-pro-3", "sans-serif";
+    font-style: normal;
+    font-weight: 400;
   /*background: linear-gradient(45deg, #000,red);
   background-size: 140%;
   background-position: 0 0;*/
@@ -524,14 +545,16 @@ button:hover, button:focus{
   .body-centered{
     text-align: center;
     }
-    .body-centered a{
-      text-decoration: none;
-      color: #4B9CD3;
+  .body-centered a{
+    text-decoration: none;
+    color: #4B9CD3;
     }
-    .body-centered a:hover, .body-centered a:focus, .body-centered a:active{
-      text-decoration: underline;
-      font-family: "Semplicita Pro", "serif";
-      -webkit-font-smoothing: antialiased;
+  .body-centered a:hover, .body-centered a:focus, .body-centered a:active{
+    text-decoration: underline;
+    font-family: semplicitapro, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    -webkit-font-smoothing: antialiased;
     }
 
 /*STYLING FOOTER*/
@@ -541,7 +564,9 @@ button:hover, button:focus{
     margin-top: 70px;
   }
   footer h3{
-    font-family: "Trajan Pro 3 Light", "sans-serif";
+    font-family: "trajan-pro-3", "sans-serif";
+    font-style: normal;
+    font-weight: 300;
     color: black;
     text-align: center;
     font-size: 1.0rem;
@@ -553,7 +578,9 @@ button:hover, button:focus{
   }
   h3 > a:hover, h3 > a:active, h3 > a:focus{
     color: white;
-    font-family: "Trajan Pro 3 Semibold", "sans-serif";
+    font-family: "trajan-pro-3", "sans-serif";
+    font-style: normal;
+    font-weight: 600;
   }
   .social{
     display: flex;
